@@ -1,4 +1,6 @@
 {
   "item.computertech.cpu_genone": "CPU GEN1",
-  "itemGroup.computer_tech_tab": "ComputerTech"
+  "itemGroup.computer_tech_tab": "ComputerTech",
+  "item.computertech.salt_item": "Salt",
+  "block.computertech.water_dryer": "SaltWater Dryer"
 }

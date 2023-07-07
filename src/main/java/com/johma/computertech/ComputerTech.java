@@ -1,5 +1,6 @@
 package com.johma.computertech;
 
+import com.johma.computertech.registry.BlocksRegistry;
 import com.johma.computertech.registry.CreativeRegistry;
 import com.johma.computertech.registry.ItemsRegistry;
 import com.mojang.logging.LogUtils;
@@ -45,6 +46,8 @@ public class ComputerTech
         MinecraftForge.EVENT_BUS.register(this);
 
         ItemsRegistry.ITEMS.register(modEventBus);
+
+        BlocksRegistry.BLOCKS.register(modEventBus);
 
         CreativeRegistry.TABS.register(modEventBus);
     }
